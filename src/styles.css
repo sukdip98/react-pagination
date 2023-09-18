@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+/* .image{
+  width: 100px;
+  height: 100px;
+}
+
+.impage img{
+max-width: 100%;
+max-height: 100%;
+object-fit: contain;
+}
+
+.beer{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+} */
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot.active {
+  background-color: blue;
+}
